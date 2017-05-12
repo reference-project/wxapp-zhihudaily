@@ -12,6 +12,7 @@
 - 总体分为首页和主题两个tab。如下两张手机上的测试图：
 ![image](https://github.com/yiliashaw/wxapp-zhihudaily/raw/master/images/home.jpg)
 ![image](https://github.com/yiliashaw/wxapp-zhihudaily/raw/master/images/theme.jpg)
+![image](https://github.com/yiliashaw/wxapp-zhihudaily/raw/master/images/detail.jpg)
 
 - 由于小程序不支持外链，所以文章里的外链是没有办法打开。一般的浏览够用。
 
