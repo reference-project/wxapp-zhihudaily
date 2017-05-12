@@ -10,8 +10,8 @@ api参考：[知乎日报-API-分析](https://github.com/izzyleung/ZhihuDailyPur
 
 
 总体分为首页和主题两个tab。如下两张手机上的测试图：
-![image](https://github.com/yiliashaw/wxapp-zhihudaily/images/home.jpg)
-![image](https://github.com/yiliashaw/wxapp-zhihudaily/images/theme.jpg)
+![image](https://github.com/yiliashaw/wxapp-zhihudaily/raw/master/images/home.jpg)
+![image](https://github.com/yiliashaw/wxapp-zhihudaily/raw/master/images/theme.jpg)
 
 由于小程序不支持外链，所以文章里的外链是没有办法打开。一般的浏览够用。
 
