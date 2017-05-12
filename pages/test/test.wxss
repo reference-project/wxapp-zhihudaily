@@ -1,0 +1,8 @@
+/* pages/test/test.wxss */
+
+image.story-image {
+
+  width: 750rpx;
+  height: 500rpx;
+
+}

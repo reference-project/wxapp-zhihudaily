@@ -1,0 +1,34 @@
+@import "/wxParse/wxParse.wxss";
+@import "templates/post-head.wxss";
+@import "templates/post-widget.wxss";
+
+page {
+  background-color: #fff;
+}
+
+.story-content {
+  font-size: 24rpx;
+  margin:36rpx;
+}
+
+.meta {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top:40rpx;
+}
+.author {
+  padding:0 20rpx;
+  font-weight: bold;
+}
+
+.author-img, .avatar{
+  width: 36rpx;
+  height: 36rpx;
+}
+
+
+
+
+
+

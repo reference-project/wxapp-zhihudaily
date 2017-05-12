@@ -1,0 +1,7 @@
+<template name="post-head">
+  <view class="img-wrap">
+    <text class="title">{{title}}</text>
+    <text class="img-src">{{image_source}}</text>
+    <image class='story-img' src="{{image}}" mode='aspectFill'></image>
+  </view>
+</template>

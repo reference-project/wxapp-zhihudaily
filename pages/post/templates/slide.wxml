@@ -1,0 +1,12 @@
+<template name='slides'>
+  <swiper indicator-dots='true' autoplay='true' interval='2000' circular='true' indicator-active-color='white' indicator-color='grey'>
+    <block wx:for='{{slides}}' wx:key='{{index}}'>
+      <swiper-item data-postid='{{item.id}}' catchtap='onPostTab'>
+        <view class="img-wrap">
+          <text class="title">{{item.title}}</text>
+          <image class='story-img' src="{{item.image}}" mode="aspectFill"></image>
+        </view>
+      </swiper-item>
+    </block>
+  </swiper>
+</template>

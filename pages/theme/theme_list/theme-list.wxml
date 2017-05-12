@@ -1,0 +1,6 @@
+<import src='templates/theme-head.wxml' />
+<import src='templates/theme-list.wxml' />
+<view class="container">
+  <template is='theme-head' data='{{...themeHead}}' />
+  <template is='theme-list' data='{{stories}}' />
+</view>

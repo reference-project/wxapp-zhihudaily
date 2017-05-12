@@ -1,0 +1,5 @@
+<view wx:for="{{elArr}}" wx:for-index="index" wx:for-item="item">
+
+  <image class="story-image" src='{{item.src}}' wx:if="{{item.type === 'img' }}" mode="aspectFill"></image>
+  <view  class="story-text">{{item.content}}</view>
+</view>

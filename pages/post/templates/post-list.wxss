@@ -1,0 +1,40 @@
+
+.post-date {
+  color:#b7b7b7;
+  font-size: 30rpx;
+  padding-left:26rpx;
+  margin:35rpx 0 40rpx;
+}
+
+.post-card {
+  /*color:#dbdbdb;*/
+  color:#000;
+  font-size: 26rpx;
+  height: 130rpx;
+  background-color: #fff;
+  padding:24rpx 26rpx 26rpx;
+  width: 668rpx;
+  border-radius: 10rpx;
+  margin:16rpx auto;
+  border:1px solid transparent;
+  /*box-shadow: 0px 1px #ddd;*/
+  box-shadow: 3px 3px 4px #ddd;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.post-card-img {
+  width: 150rpx;
+  height: 130rpx;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+.post-title {
+  padding-right: 36rpx;
+
+}
+
+.readed {
+  color:#888;
+}

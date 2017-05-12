@@ -1,0 +1,4 @@
+
+@import 'templates/post-list.wxss';
+@import 'templates/slide.wxss';
+

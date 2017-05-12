@@ -1,0 +1,15 @@
+<import src='templates/post-head.wxml' />
+<import src='templates/post-widget.wxml' />
+<import src="../../wxParse/wxParse.wxml" />
+
+<view class="detail-container">
+  <template wx:if="{{story.image}}" is='post-head' data='{{...story}}' />
+
+  <view class="story-content">
+    <template is='wxParse' data='{{wxParseData:article.nodes}}' />
+  </view>
+
+  <!--<template is='post-widget' />-->
+
+
+</view>

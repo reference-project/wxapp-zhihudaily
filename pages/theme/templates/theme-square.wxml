@@ -1,0 +1,6 @@
+<template name="theme-square">
+  <view class="theme-wrapper">
+    <image class="theme-img" src="{{thumbnail}}" mode="aspectFill"></image>
+    <text class="theme-name" data-themeid="{{id}}" catchtap="onThemeTap">{{name}}</text>
+  </view>
+</template>

@@ -1,0 +1,7 @@
+<import src='templates/post-list.wxml' />
+<import src='templates/slide.wxml' />
+
+<scroll-view class="post-container" scroll-y="true" style="height: 1335rpx;" bindscrolltolower='onScrollLower' >
+  <template is='slides' data='{{slides}}' />
+  <template wx:for='{{pages}}' wx:key='{{index}}' is='post-list' data='{{...item}}' />
+</scroll-view>

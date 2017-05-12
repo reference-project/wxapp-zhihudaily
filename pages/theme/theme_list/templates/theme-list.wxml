@@ -1,0 +1,11 @@
+<template name="theme-list">
+  <view class="postList-container">
+    <view class="post-date">{{date}}</view>
+    <block wx:for='{{stories}}' wx:key='{{index}}'>
+      <view class="post-card" data-postid='{{item.id}}' catchtap='onPostTab'>
+        <text class="post-title">{{item.title}}</text>
+        <image wx:if="{{item.images.length >0}}" class="post-card-img" src="{{item.images[0]}}"></image>
+      </view>
+    </block>
+  </view>
+</template>

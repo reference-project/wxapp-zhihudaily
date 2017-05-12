@@ -1,0 +1,6 @@
+
+@import 'templates/theme-head.wxss';
+@import 'templates/theme-list.wxss';
+
+
+

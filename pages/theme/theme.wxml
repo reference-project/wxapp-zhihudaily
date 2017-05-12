@@ -1,0 +1,4 @@
+<import src='templates/theme-square.wxml' />
+<view class="container">
+  <template wx:for='{{themes}}' is='theme-square' wx:key='{{index}}' data='{{...item}}' />
+</view>

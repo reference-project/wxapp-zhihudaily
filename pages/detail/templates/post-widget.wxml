@@ -1,0 +1,16 @@
+<template name="post-widget">
+  <view class="widget-container">
+    <view class="fav-widget widget">
+      <image class="fav-icon icon" wx:if="{{faved}}" src="/images/icons/faved.png" catchtap='onFavTap'></image>
+      <image class="fav-icon icon" wx:else src="/images/icons/fav.png" catchtap='onFavTap'></image>
+      <text>收藏</text>
+    </view>
+
+    <view class="praise-widget widget">
+      <image class="praise-icon icon" wx:if="{{praised}}" src="/images/icons/praised.png" catchtap='onPraiseTap'></image>
+      <image class="praise-icon icon" wx:else src="/images/icons/praise.png" catchtap='onPraiseTap'></image>
+      <text>点赞</text>
+
+    </view>
+  </view>
+</template>

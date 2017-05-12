@@ -1,0 +1,9 @@
+page {
+  background-color: #eee;
+}
+
+text {
+  font-family:'Microsoft YaHei', STHeiti;
+  font-size: 32rpx;
+  line-height: 40rpx;
+}
